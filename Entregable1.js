@@ -68,6 +68,9 @@ manager.addProduct({
     code:"GHI",
     stock:30
 })*/
+/*console.log(manager.getProductById(1));
+console.log(manager.getProductById(3));
+console.log(manager.getProductById(15))*/
 
 //Testing de coder
 const manager= new ProductManager()
@@ -85,7 +88,3 @@ console.log(manager.getProducts());
     
     
 
-
-/*console.log(manager.getProductById(1));
-console.log(manager.getProductById(3));
-console.log(manager.getProductById(15))*/
