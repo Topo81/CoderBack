@@ -71,17 +71,17 @@ manager.addProduct({
 
 //Testing de coder
 const manager= new ProductManager()
-console.log(manager.getProducts());
 
 manager.addProduct({
     title:"producto prueba",
-description:"Este es un producto prueba",
-price:200,
-thumbnail:"Sin imagen",
-code:"abc123",
-stock:25
-
+    description:"Este es un producto prueba",
+    price:200,
+    thumbnail:"Sin imagen",
+    code:"abc123",
+    stock:25
+    
 })
+console.log(manager.getProducts());
     
     
 
